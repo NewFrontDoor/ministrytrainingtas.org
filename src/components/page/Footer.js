@@ -11,37 +11,37 @@ const Footer = ({ isFrontPage }) => (
           <ul className="list-inline">
             <li>
               {isFrontPage ?
-                <Scroll.Link activeClass="active" to="about-mtt" spy={true} smooth={true} offset={-50} duration={500}>About</Scroll.Link> :
-                <Link to="/#about-mtt">What Is MTT?</Link>
+                <Scroll.Link className="customLinkColor" activeClass="active" to="about-mtt" spy={true} smooth={true} offset={-50} duration={500}>About</Scroll.Link> :
+                <Link to="/#about-mtt">About</Link>
               }
             </li>
             <li>
               {isFrontPage ?
-                <Scroll.Link activeClass="active" to="who-is-mt-for" spy={true} smooth={true} offset={-50} duration={500}>Is this for me?</Scroll.Link> :
-                <Link to="/#who-is-mt-for">Who Is MT For?</Link>
+                <Scroll.Link className="customLinkColor" activeClass="active" to="who-is-mt-for" spy={true} smooth={true} offset={-50} duration={500}>Is this for me?</Scroll.Link> :
+                <Link to="/#who-is-mt-for">Is this for me?</Link>
               }
             </li>
             <li>
               {isFrontPage ?
-                <Scroll.Link activeClass="active" to="testimonials" spy={true} smooth={true} offset={-50} duration={500}>Testimonies</Scroll.Link> :
+                <Scroll.Link className="customLinkColor" activeClass="active" to="testimonials" spy={true} smooth={true} offset={-50} duration={500}>Testimonies</Scroll.Link> :
                 <Link to="/#testimonials">Testimonies</Link>
               }
             </li>
             <li>
               {isFrontPage ?
-                <Scroll.Link activeClass="active" to="choose-ministry-focus" spy={true} smooth={true} offset={-50} duration={500}>Choose a Ministry Focus</Scroll.Link> :
+                <Scroll.Link className="customLinkColor" activeClass="active" to="choose-ministry-focus" spy={true} smooth={true} offset={-50} duration={500}>Choose a Ministry Focus</Scroll.Link> :
                 <Link to="/#choose-ministry-focus">Choose a Ministry Focus</Link>
               }
             </li>
             <li>
               {isFrontPage ?
-                <Scroll.Link activeClass="active" to="choose-training-stream" spy={true} smooth={true} offset={-50} duration={500}>Choose a Training Stream?</Scroll.Link> :
-                <Link to="/#choose-training-stream">Choose a Training Stream?</Link>
+                <Scroll.Link className="customLinkColor" activeClass="active" to="choose-training-stream" spy={true} smooth={true} offset={-50} duration={500}>Choose a Training Stream </Scroll.Link> :
+                <Link to="/#choose-training-stream">Choose a Training Stream</Link>
               }
             </li>
             <li>
               {isFrontPage ?
-                <Scroll.Link activeClass="active" to="apply-now" spy={true} smooth={true} offset={-50} duration={500}>Apply Now</Scroll.Link> :
+                <Scroll.Link className="customLinkColor" activeClass="active" to="apply-now" spy={true} smooth={true} offset={-50} duration={500}>Apply Now</Scroll.Link> :
                 <Link to="/#apply-now">Apply Now</Link>
               }
             </li>
