@@ -792,11 +792,24 @@ a.customLinkColor {color:#3e80ba !important;}
 section#testimonials {background: #5bc6cc}
 section#testimonials hr {border-top: 3px solid #2099a3; width: 70px; margin-left: 0px;}
 section#testimonials h2 {margin-top: 30px}
+section#testimonials h2.whiteHeader {overflow: visible}
 
 
 section#choose-ministry-focus hr {border-top: 1px solid #5bc6cc; width: 60%}
 .ministryLogoContainer {width: 85% !important}
-.testimonyImg {margin-top: 90px !important; margin-left: 12% !important;}
+
+@media (min-width: 768px){
+  .testimonyImg {margin-top: 90px !important; margin-left: 12% !important;}
+  .hideNotXS {display: none;}
+}
+
+@media (max-width: 767px){
+  .hideWhenXS {display: none;}
+  .testimonyImg img {display:inline-block}
+  .testimonyImg {margin-top: 40px;}
+}
+
+
 
 section#apply-now {background: #002d3f; padding: 0}
 section#apply-now .aqua {color: #5bc6cc}

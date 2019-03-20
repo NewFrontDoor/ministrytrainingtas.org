@@ -2,7 +2,7 @@ import React from 'react';
 import splash from '../../../images/Cover HQ.jpg';
 
 export default () => (
-  <header id="fullwidth" className="homepage" style={{ 'backgroundImage': `url('${splash}')` }}>
+  <header id="fullwidth" className="homepage" style={{ 'backgroundImage': `url('${splash}')`, 'backgroundPosition': '79%' }}>
     <div className="header-text white text-center text-uppercase">
       <h1 className="titlebg pddn-20-top pddn-20-btm">Ministry Training Tasmania</h1>
 
