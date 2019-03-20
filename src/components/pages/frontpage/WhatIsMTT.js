@@ -1,4 +1,5 @@
 import React from 'react';
+import Vimeo from '@u-wave/react-vimeo';
 
 
 
@@ -9,7 +10,9 @@ export default () => (
         <div className="col-md-12">
           <div className="section-title">
             <h3 className="darkBlueHeader">Ministry Training Tasmania is a state-wide movement that seeks to grow and equip a new generation of gospel workers for Tasmania, Australia and the world. Our hands-on ministry training program will give you a fantastic chance to test your suitability for ongoing full-time Christian leadership. </h3>
-
+            <div className="vimeo-vid text-center ">
+              <Vimeo video={322113877} allowFullScreen={true} showTitle={false} showByline={false} showPortrait={false} sidedock={0} />
+            </div>
             <h2 className="aquaHeader">Authentic training in a vibrant ministry</h2>
             <p>We offer practical ministry training among uni students at the University of Tasmania. This provides unique opportunities to engage with different philosophies; experience a whole range of events, programs and activities; and invest in young Christians and emerging leaders. As a trainee, you will learn in relationship with a godly and experienced ministry trainer who will teach you skills and help you grow in character and conviction.</p>
 
