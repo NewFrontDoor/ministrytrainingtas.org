@@ -115,7 +115,7 @@ a:hover, a:focus {color: #6C7A89;text-decoration: none;}
 #customnav .navbar-nav>li>a:hover, #customnav .navbar-nav>li>a:focus {color:#3eafb8;}
 #customnav.navbar-default .navbar-nav>.active>a, #customnav.navbar-default .navbar-nav>.active>a:focus, #customnav.navbar-default .navbar-nav>.active>a:hover {background:transparent;color:#3eafb8;}
 #customnav .navbar-brand {padding: 7px 15px;}
-#customnav.navbar {min-height:50px;}
+#customnav.navbar {min-height:85px;}
 #customnav.navbar-default .navbar-toggle:focus,#customnav.navbar-default .navbar-toggle:hover {background-color:transparent;}
 #customnav.navbar-default .navbar-toggle {border-color:transparent;}
 #customnav .navbar-toggle {padding: 14px 10px;}
@@ -123,6 +123,9 @@ a:hover, a:focus {color: #6C7A89;text-decoration: none;}
 @media (min-width: 768px) and  (max-width: 992px)  {
 #customnav .navbar-nav>li>a {padding:20px 10px;font-size:13px}
 }
+@media (min-width: 768px)  {
+  #customnav .navbar-right>li>a{height: 85px; line-height:55px;}
+  }
 
 /*********
 3.Video Background Header
@@ -797,16 +800,17 @@ section#testimonials h2.whiteHeader {overflow: visible}
 
 section#choose-ministry-focus hr {border-top: 1px solid #5bc6cc; width: 60%}
 .ministryLogoContainer {width: 85% !important}
+.testimonyImg img {border-radius: 43%}
 
 @media (min-width: 768px){
-  .testimonyImg {margin-top: 90px !important; margin-left: 12% !important;}
+  .testimonyImg {margin-top: 110px !important; margin-left: 12% !important;}
   .hideNotXS {display: none;}
 }
 
 @media (max-width: 767px){
   .hideWhenXS {display: none;}
-  .testimonyImg img {display:inline-block}
-  .testimonyImg {margin-top: 40px;}
+  .testimonyImg img {display:inline-block; max-height: 366px}
+  .testimonyImg {margin-top: 40px; }
 }
 
 
@@ -817,6 +821,6 @@ section#apply-now .logo-container { text-align: center}
 section#apply-now .apply-logo {display: inline-block; height: 380px !important}
 section#apply-now .white {color: #ffffff}
 section#apply-now a {color: #ffffff}
-section#apply-now h2 {text-transform: none; margin-top: 250px;margin-bottom: 250px;}
+section#apply-now h2 {text-transform: none; margin-top: 250px;margin-bottom: 220px;}
 section#apply-now h3 {text-transform: none; margin-top: 250px; margin-bottom: 120px;}
 

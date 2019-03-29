@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../../images/logo/mtt-white.png';
+import logo from '../../images/logo/MTTNavLogo.png';
 import { Navbar, Nav } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import Scroll from 'react-scroll';
@@ -10,7 +10,7 @@ const TycNav = ({ isFrontPage }) => (
       <Navbar.Toggle>
       </Navbar.Toggle>
       <Navbar.Brand>
-        <a href="/"><img src={logo} className="img-responsive" alt="New York Web Buzz" width="23" height="36" /></a>
+        <a href="/"><img src={logo} className="img-responsive" alt="New York Web Buzz" width="199" height="73" /></a>
       </Navbar.Brand>
     </Navbar.Header>
     <Navbar.Collapse>

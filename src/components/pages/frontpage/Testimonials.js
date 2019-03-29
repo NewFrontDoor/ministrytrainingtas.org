@@ -1,6 +1,6 @@
 import React from 'react';
-import Aaron from '../../../images/Aaron.png';
-import Laura from '../../../images/Laura.png';
+import Aaron from '../../../images/Aaron.jpg';
+import Laura from '../../../images/Laura.jpg';
 
 
 export default () => (
