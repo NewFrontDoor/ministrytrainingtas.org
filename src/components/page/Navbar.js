@@ -47,6 +47,12 @@ const TycNav = ({ isFrontPage }) => (
         </li>
         <li role="presentation">
           {isFrontPage ?
+            <Scroll.Link activeClass="active" to="training-resources" spy={true} smooth={true} offset={-50} duration={500}>Training Resources</Scroll.Link> :
+            <Link to="/#choose-training-stream">Training Resources</Link>
+          }
+        </li>
+        <li role="presentation">
+          {isFrontPage ?
             <Scroll.Link activeClass="active" to="apply-now" spy={true} smooth={true} offset={-50} duration={500}>Apply Now</Scroll.Link> :
             <Link to="/#apply-now">Apply Now</Link>
           }
